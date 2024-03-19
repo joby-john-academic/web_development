@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+#newImage {
+    width: 200px;
+    height: auto;
+}
+
+#newText {
+    font-size: 18px;
+    color: #333;
+}
