@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+
+}
+img{
+    width: 100%;
+    border: 5px solid white;
+}
+#quote{
+    margin-top: 100px;
+    margin-left: 25%;
+    width: 45%;
+    height: 85%; 
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+ }
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.2rem;
+}
