@@ -13,7 +13,7 @@ img{
     width: 100%;
     border: 5px solid white;
 }
-#quote{
+.quote{
     margin-top: 100px;
     margin-left: 25%;
     width: 45%;

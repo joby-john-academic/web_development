@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    .blue-box{
+      position: relative;
+      z-index: -1;
+      background-color: blue;
+      height:400px;
+      width: 700px;
+    }
+    .red-circle{
+      background-color: red;
+      position: absolute;
+      left: 25%;
+      top:15%;
+      z-index: 1;
+      width: 50%;
+      height: 70%;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

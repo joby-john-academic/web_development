@@ -12,6 +12,7 @@
     }
 
     #first{
+      position:fixed;
       padding: 20px;
       background-color: cadetblue; 
       border: 10px solid black;
@@ -20,14 +21,23 @@
 
     #second{
       background-color: gold;
-      margin-left: 260px;
+      position: relative;
+      top: 268px;
+      left: 40px;
+      bottom: 30px;
+      z-index: 1;
       border: solid black;
       border-width: 20px 10px;
     }
 
     #third{
+      position: absolute;
+      top: 210px;
+      left: 210px;
+      bottom: 50px;
+      z-index: -1;
       background-color: indianred;
-      margin-left: 40px;
+    
       border: 10px solid black;
     }
     p{
@@ -45,7 +55,7 @@
   </div>
   <div  id = "second">
      <p>The second div</p>
-  </div>
+
   <div id = "third">
  <p>The third div</p>
   </div>
