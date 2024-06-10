@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap: 30px;
+
+        }
+        .first{
+            grid-column: span 2;
+            background-color: red;
+        }
+
+        .card{
+            background-color: gold;
+        }
+        div{
+            text-align: center;
+        }
+        .last{
+            grid-column: span 2;
+            background-color: aquamarine;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "grid-container">
+        <div class = "first"><h1>The Trinity</h1></div>
+        <div class = "card"><h3>Father</h3></div>
+        <div class = "card"><h3>Son</h3></div>
+        <div class = "last"><h3>Holy Spirit</h3></div>
+
+    </div>
+</body>
+</html>
